@@ -1,1 +1,24 @@
+@import url('https//fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap'); 
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+.gallery img{
+  width: 100%;
+}
